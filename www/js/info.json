@@ -1,0 +1,12 @@
+{
+    "info": {
+        "version": "1.0.0.0",
+        "publishtime": "2016-08-28",
+        "github": "https://github.com/githubuser009",
+        "email": "xingzhejian@gmail.com",
+        "weixin": "编程学习者",
+        "weixinurl": "weixin://contacts/profile/gh_26c3c09cfafb",
+        "weixinimg": "img/weixin.jpg",
+        "description": "这是一个使用AngularJS+Ionic+Cordova混合开发的任务清单，功能简单，无广告，不注册，即开即用。项目开源，代码托管在GitHub上。（部分手机上可能由于不能读写文件而无法正常使用。）"
+    }
+}

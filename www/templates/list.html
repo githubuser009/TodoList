@@ -1,0 +1,32 @@
+<ion-view name="list" view-title="清单">
+	<ion-header-bar align-title="center" class="bar-positive">
+		<h1 class="title">清单</h1>
+	</ion-header-bar>
+
+	<ion-content class="padding has-header has-footer">
+		<ion-list>
+			<ion-item ng-repeat="item in items" ng-if="!item.completed">
+				<!-- id：{{item.id}} --- text：{{item.text}} --- priority：{{item.priority}} --- completed：{{item.completed}} -->
+				{{item.text}}
+
+				<ion-option-button class="button-balanced" ng-click="openModal(editModal,item)">编辑</ion-option-button>
+				<ion-option-button class="button-assertive" ng-click="deleteItem(item)">删除</ion-option-button>
+				<ion-option-button class="button-royal" ng-click="completedItem(item)">已完成</ion-option-button>
+			</ion-item>
+		</ion-list>
+		<ion-list ng-if="isShowCompleted.value">
+			<ion-item ng-repeat="item in items" ng-if="item.completed">
+				已完成：{{item.text}}
+
+				<ion-option-button class="button-balanced" ng-click="openModal(editModal,item)">编辑</ion-option-button>
+				<ion-option-button class="button-assertive" ng-click="deleteItem(item)">删除</ion-option-button>
+				<ion-option-button class="button-royal" ng-click="completedItem(item)">未完成</ion-option-button>
+			</ion-item>
+		</ion-list>
+
+	</ion-content>
+	<ion-footer-bar align-title="center" class="bar-positive padding">
+		<button class="button button-full" ng-click="openModal(addModal)">十&nbsp;&nbsp;添加任务</button>
+	</ion-footer-bar>
+</ion-view>
+

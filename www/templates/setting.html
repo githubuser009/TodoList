@@ -1,0 +1,28 @@
+<ion-view name="setting" view-title="设置">
+	<ion-content class="padding">
+		<ion-list>
+			<ion-checkbox ng-model="showCompleted.checked" ng-change="showCompletedChange()">显示 已完成任务</ion-checkbox>
+			<!-- <div class="item">
+          <pre ng-bind="showCompleted | json"></pre> 
+        </div> -->
+			
+		<!-- <div class="item">
+          <p>---------以下暂不可用---------</p> 
+        </div>
+			<ion-checkbox ng-model="menuSide.side" ng-change="menuSideChange()" ng-true-value="'left'" ng-false-value="'right'">
+          导航菜单 在右侧/左侧
+        </ion-checkbox> -->
+		<!-- <div class="item">
+          <pre ng-bind="menuSide | json"></pre> 
+        </div> -->
+
+			<!-- <ion-item>启用定时提醒功能</ion-item>
+			<ion-item>使用 紧急\重要 4级优先级排序</ion-item>
+			<ion-item>使用 必须做\可以做 3级优先级排序</ion-item> -->
+		</ion-list>
+		<!-- <a href="#/app/list" ng-href="#/app/list" style="text-decoration: none;"><button class="button button-full button-positive">《《&nbsp;&nbsp;返回清单</button></a> -->
+	</ion-content>
+	<!-- <ion-footer-bar align-title="center" class="bar-positive padding">
+		<button class="button button-full" ng-click="goBack()">《&nbsp;&nbsp;返回清单</button>
+	</ion-footer-bar> -->
+ </ion-view>

@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+@charset "UTF-8";
+/*!
+ * http://
+ * Email:xingzhejian@gmail.com
+ * Date:2016-07-10
+ * Licensed under the MIT license. Please see LICENSE for more information.
+ *
+ */
+ion-side-menu a {padding:0 !important;}
+button.button-full {margin:0 !important;}
+ion-footer-bar  {padding:0 !important;}

@@ -1,0 +1,22 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+hooks/
+platforms/
+plugins/
+resources/ios/
+resources/GIMP.xcf
+scss/
+www/lib/
+www20160718/
+www20160826/
+www20160828添加排序bug/
+.bowerrc
+.editorconfig
+bower.json
+gulpfile.js
+ionic.project
+my-release-key.keystore
+package.json
+打包发布app流程命令.txt
