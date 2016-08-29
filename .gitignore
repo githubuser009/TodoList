@@ -11,7 +11,7 @@ scss/
 www/lib/
 www20160718/
 www20160826/
-www20160828添加排序bug/
+www20160828娣诲姞鎺掑簭bug/
 .bowerrc
 .editorconfig
 bower.json
@@ -19,4 +19,4 @@ gulpfile.js
 ionic.project
 my-release-key.keystore
 package.json
-打包发布app流程命令.txt
+鎵撳寘鍙戝竷app娴佺▼鍛戒护.txt
